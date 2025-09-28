@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "weapon_1",
+      "description": "Primary weapon slot.",
+      "imageUrl": "https://images.unsplash.com/photo-1700774606158-a4fa926f0bee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYW5kZ3VuJTIwcGlzdG9sfGVufDB8fHx8MTc1OTAyMTMzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handgun pistol"
+    },
+    {
+      "id": "weapon_2",
+      "description": "Secondary weapon slot.",
+      "imageUrl": "https://images.unsplash.com/photo-1636136368699-cc412bb977d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzaG90Z3VuJTIwd2VhcG9ufGVufDB8fHx8MTc1OTAyMTMzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shotgun weapon"
+    },
+    {
+      "id": "weapon_3",
+      "description": "Tertiary weapon slot.",
+      "imageUrl": "https://images.unsplash.com/photo-1725472445023-1fee60f57d8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhc3NhdWx0JTIwcmlmbGV8ZW58MHx8fHwxNzU4OTY3ODMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "assault rifle"
+    },
+    {
+      "id": "weapon_4",
+      "description": "Fourth weapon slot.",
+      "imageUrl": "https://images.unsplash.com/photo-1650763346044-650eaf6edbb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWclMjBndW58ZW58MHx8fHwxNzU5MDIxMzM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smg gun"
+    },
+    {
+      "id": "gear_shield",
+      "description": "A protective shield.",
+      "imageUrl": "https://images.unsplash.com/photo-1641156453619-6772746efab6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlbmVyZ3klMjBzaGllbGR8ZW58MHx8fHwxNzU4OTY3NDc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "energy shield"
+    },
+    {
+      "id": "gear_repkit",
+      "description": "A repair kit.",
+      "imageUrl": "https://images.unsplash.com/photo-1624638760852-8ede1666ab07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZXBhaXIlMjBraXR8ZW58MHx8fHwxNzU5MDIyNTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "repair kit"
+    },
+    {
+      "id": "gear_ordnance",
+      "description": "An ordnance item.",
+      "imageUrl": "https://images.unsplash.com/photo-1604065221739-cfa3ef6a685b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtaXNzaWxlJTIwbGF1bmNoZXJ8ZW58MHx8fHwxNzU5MDIyNTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "missile launcher"
+    }
+  ]
+}
