@@ -3,69 +3,69 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 275 100% 41.4%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 215.4 16.3% 46.9%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 98 100% 49.4%;
-    --accent-foreground: 98 100% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-    --radius: 0.5rem;
-    --rarity-common: 220 13% 69%;
-    --rarity-uncommon: 140 80% 60%;
-    --rarity-rare: 210 100% 50%;
-    --rarity-epic: 270 100% 70%;
-    --rarity-legendary: 30 100% 50%;
-    --rarity-mythic: 320 100% 70%;
-  }
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 222.2 84% 4.9%;
+        --card: 0 0% 100%;
+        --card-foreground: 222.2 84% 4.9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 222.2 84% 4.9%;
+        --primary: 275 100% 41.4%;
+        --primary-foreground: 0 0% 98%;
+        --secondary: 210 40% 96.1%;
+        --secondary-foreground: 215.4 16.3% 46.9%;
+        --muted: 210 40% 96.1%;
+        --muted-foreground: 215.4 16.3% 46.9%;
+        --accent: 98 100% 49.4%;
+        --accent-foreground: 98 100% 10%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 214.3 31.8% 91.4%;
+        --input: 214.3 31.8% 91.4%;
+        --ring: 222.2 84% 4.9%;
+        --radius: 0.5rem;
+        --rarity-common: 220 13% 69%;
+        --rarity-uncommon: 140 80% 60%;
+        --rarity-rare: 210 100% 50%;
+        --rarity-epic: 270 100% 70%;
+        --rarity-legendary: 30 100% 50%;
+        --rarity-mythic: 320 100% 70%;
+    }
 
-  .dark {
-    --background: 0 0% 13.3%; /* #222222 */
-    --foreground: 0 0% 98%;
-    --card: 0 0% 16%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 13.3%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 275 100% 41.4%; /* #9400D3 */
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 20%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 98 100% 49.4%; /* #7CFC00 */
-    --accent-foreground: 98 100% 10%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 25%;
-    --input: 0 0% 25%;
-    --ring: 275 100% 41.4%;
-    --rarity-common: 220 13% 69%;
-    --rarity-uncommon: 140 80% 40%;
-    --rarity-rare: 210 100% 40%;
-    --rarity-epic: 270 100% 60%;
-    --rarity-legendary: 30 100% 40%;
-    --rarity-mythic: 320 100% 60%;
-  }
+    .dark {
+        --background: 0 0% 13.3%; /* #222222 */
+        --foreground: 0 0% 98%;
+        --card: 0 0% 16%;
+        --card-foreground: 0 0% 98%;
+        --popover: 0 0% 13.3%;
+        --popover-foreground: 0 0% 98%;
+        --primary: 275 100% 41.4%; /* #9400D3 */
+        --primary-foreground: 0 0% 98%;
+        --secondary: 0 0% 20%;
+        --secondary-foreground: 0 0% 98%;
+        --muted: 0 0% 20%;
+        --muted-foreground: 0 0% 63.9%;
+        --accent: 98 100% 49.4%; /* #7CFC00 */
+        --accent-foreground: 98 100% 10%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 0 0% 25%;
+        --input: 0 0% 25%;
+        --ring: 275 100% 41.4%;
+        --rarity-common: 220 13% 69%;
+        --rarity-uncommon: 140 80% 40%;
+        --rarity-rare: 210 100% 40%;
+        --rarity-epic: 270 100% 60%;
+        --rarity-legendary: 30 100% 40%;
+        --rarity-mythic: 320 100% 60%;
+    }
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
 }
